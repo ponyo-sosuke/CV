@@ -94,9 +94,9 @@
         </section>
         <section>
             <h3>PORTFOLIO</h3>
-
-            <p>Ici se trouvera un carrousel d&eacute;filant</p><br><br>
-
+            <p>
+                Ici se trouvera un carrousel d&eacute;filant
+            </p>
         </section>
         <section>
             <h3>CONTACT</h3>
@@ -137,4 +137,3 @@
     </footer>
 </body>
 </html>
-
