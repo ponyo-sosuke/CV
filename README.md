@@ -46,6 +46,11 @@
                     <img src="." alt="CSS3">
                     <img src="." alt="HTML5">
                     <img src="." alt="JavaScript">
+                    <img src="." alt="Visual Studio Code">
+                    <img src="." alt="Xcode">
+                    <img src="." alt="Swift">
+                    <img src="." alt="Git">
+                    <img src="." alt="Github">
                 </p>
         </section>
         <section>
