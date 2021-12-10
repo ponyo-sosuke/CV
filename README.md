@@ -100,7 +100,6 @@
         </section>
         <section>
             <h3>CONTACT</h3>
-
             <p>
                 Me suivre sur Linkedin
             </p>
@@ -118,7 +117,7 @@
                 <label for="email">Email* :</label>
                 <input type="email" id="email" name="email" size="30" 
                 pattern="[0-9-A-Z-az-@-._]{30}" title="email"><br><br>
-
+                <!-- Text subject -->
                 <label for="objet">Sujet :</label>
                 <input type="text" id="objet" name="objet" size="50"><br><br>
                 <!-- Text area -->
@@ -128,7 +127,6 @@
                 </textarea><br><br>
                 <!-- Bouton validation -->
                 <button>Envoyer</button>
-
             </form>
         </section>
     </main>
