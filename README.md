@@ -94,7 +94,7 @@
                 <p>
                     Concepteur multimedia<br />
                     CEPRECO Roubaix<br />
-                    Dipl&ocirc; obtenu : 2nde de promotion
+                    Dipl&ocirc;me obtenu : 2nde de promotion
                 </p>
         </section>
         <section>
@@ -105,6 +105,10 @@
         </section>
         <section>
             <h3>CONTACT</h3>
+            <!-- Voir comment integrer ce mail dans la zone contact plus bas -->
+            <p>
+                <a href="mailto:closeupfactory@yahoo.fr">M'&eacute;crire</a>
+            </p>
             <p>
                 Me suivre sur Linkedin
             </p>
@@ -114,7 +118,7 @@
             <p>
                 T&eacute;l&eacute;charger le CV
             </p>
-            <br><br>
+            <br>
             <form>
                 <!-- Formulaire -->
                 <label for="nom">Nom* :</label>
@@ -131,12 +135,22 @@
                 Imagine un monde sans Git !
                 </textarea><br><br>
                 <!-- Bouton validation -->
-                <button>Envoyer</button>
+                <button onclick="document.location='default.asp'">Envoyer</button>
             </form>
         </section>
     </main>
     <footer>
             <h5>&copy; Doe DC - 2021-2022</h5>
+            <p>Follow me</p>
+            <a href=".">
+                <img src="." alt="Behance">
+            </a>
+            <a href=".">
+                <img src="." alt="Github">
+            </a>
+            <a href=".">
+                <img src="." alt="Linkedin">
+            </a>
     </footer>
 </body>
 </html>
