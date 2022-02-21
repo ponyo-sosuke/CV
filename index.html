@@ -1,220 +1,313 @@
-<!doctype html>
-<html class="no-js" lang="fr">
+<!DOCTYPE html>
+<html lang="fr_FR">
 
 <head>
-  <meta charset="utf-8">
-  <title>:: CV Dorothee Dupont Croquet ::</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
-  
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-  
-  <meta name="theme-color" content="#fafafa">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Tailwind elements</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Elements CSS -->
+    <link rel="stylesheet" href="css/index.min.css" />
+    <!-- Custom styles -->
+    <style></style>
 </head>
 
-<body>
+<body class="bg-gray-800">
+    <!-- Start your project here-->
 
-  <!-- Add your site or application content here -->
-  
-  <div class="container">
-    <div class="header">
-      <figure><img src="."></figure>
-    </div>
-    <div class="nav li">
-      <ul>
-        <li><h4>CURSUS</h4></li>
-        <li><h4>PORTFOLIO</h4></li>
-        <li><h4>CONTACT</h4></li>
+    <!-- balise container generale -->
+    <section class="lg:content-auto">
+
+        <!-- navbar -->
+        <nav class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+                <button class="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="bars"
+        class="w-6"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+      >
+        <path
+          fill="currentColor"
+          d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+        ></path>
+      </svg>
+    </button>
+                <!-- texte navbar -->
+                <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
+                    <a class="text-xl text-white pr-2 font-semibold" href="#">Navbar</a>
+                    <!-- Left links -->
+                    <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+                        <!-- titre 1 -->
+                        <li class="nav-item p-2">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0" href="#">Team</a
+          >
+        </li>
+        <!-- titre 2 -->
+        <li class="nav-item p-2">
+          <a
+            class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+            href="#"
+            >Projects</a
+          >
+        </li>
       </ul>
+      <!-- Left links -->
     </div>
+    <!-- Collapsible wrapper -->
 
-    <!-- main -->
-    <main class="main">
-      <div>
-        <section class="me">
-          <div>
-          <h2>Doe</h2>
-          <h2>Dupont Croquet</h2>
-          </div>
-          <div><h3>UI UX DESIGNER</h3></div>
-        </section>
+    <!-- Right elements -->
+    <div class="flex items-center relative">
+      <!-- Icon -->
+      <a class="text-white opacity-60 hover:opacity-80 focus:opacity-80 mr-4" href="#">
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="shopping-cart"
+          class="w-4"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 576 512"
+        >
+          <path
+            fill="currentColor"
+            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+          ></path>
+        </svg>
+      </a>
+                            <div class="dropdown relative">
+                                <a class="text-white opacity-60 hover:opacity-80 focus:opacity-80 mr-4 dropdown-toggle hidden-arrow flex items-center" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              fill="currentColor"
+              d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"
+            ></path>
+          </svg>
+                                    <span class="text-white bg-red-700 absolute rounded-full text-xs -mt-2.5 ml-2 py-0 px-1.5">1</span
+          >
+        </a>
+        <ul
+          class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0"
+          aria-labelledby="dropdownMenuButton1"
+        >
+          <li>
+            <a
+              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+              href="#"
+              >Action</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+              href="#"
+              >Another action</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+              href="#"
+              >Something else here</a
+            >
+          </li>
+        </ul>
       </div>
-    </main>
-    <!-- sidebar + cursus -->
-      <div class="sidebar"></div>
-      <div class="about">
-        <section class="title">
-          <div><h3>ABOUT ME</h3></div>
-        </section>
-        <p>Bonjour,<br>
-        Je suis <span>webdesigner de formation</span>. Passionnée depuis toujours par le graphisme et le numérique.<br>
-        J'ai fais mes études graphiques sur Saint-Quentin, puis après le Bac sur Cambrai, Amiens, Roubaix.<br><br>
-        Ayant exercé en UI design, pour des sites de e-commerce, pendant quelques années, je souhaite m'orienter vers l'UX design.<br>
-        Etudier le comportement et les habitudes du client sont une grande source d'informations pour concevoir des sites web plus adaptés aux besoins réels des consommateurs.<br><br>
-        J'ai également d'autres passions : la lecture, le tricot, la musique et le sport.<br><br>
-        </p>
+      <div class="dropdown relative">
+        <a
+          class="dropdown-toggle flex items-center hidden-arrow"
+          href="#"
+          id="dropdownMenuButton2"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="https://mdbootstrap.com/img/new/avatars/2.jpg"
+            class="rounded-full"
+            style="height: 25px; width: 25px"
+            alt=""
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0"
+          aria-labelledby="dropdownMenuButton2"
+        >
+          <li>
+            <a
+              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+              href="#"
+              >Action</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+              href="#"
+              >Another action</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
+              href="#"
+              >Something else here</a
+            >
+          </li>
+        </ul>
       </div>
-      <!-- cursus -->
-      <div class="cursus">
-        <section class="title">
-          <hr>
-          <div><h3>CURSUS</h3></div>
-        </section>
-        <section class="subtitle"><h4>DEV</h4></section>
-        <section>
-          <div class="dates">2021-2022</div>
-          <div class="job">Développeur intégrateur d'applications web</div>
-          <div class="entreprise">Simplon Flagship Lille, 3 mois</div>
-          <div><p></p></div>
-        </section>
-        <section>
-          <div class="dates">2021</div>
-          <div class="job">APPLE Foundation Program : Développeur iOS</div>
-          <div class="entreprise">Simplon Euratechnologies Lille, 1 mois</div>
-          <div><p></p></div>
-        </section>
-        <!--UX -->
-        <section class="subtitle"><h4>UX</h4></section>
-        <section>
-          <div class="dates">2021</div>
-          <div class="job">UI UX Designer, MBA UI UX Design</div>
-          <div class="entreprise">MyDigitalSchool Lille, <br>session interrompue car promesse de contrat pro non tenue</div>
-          <div><p></p></div>
-        </section>
-        <section>
-          <div class="dates">2020</div>
-          <div class="job">UI UX Designer</div>
-          <div class="entreprise">M2I Formation, Villeneuve-d'Ascq<br>certification Digit obtenue</div>
-          <div><p></p></div>
-        </section>
-        <!--UI -->
-        <section class="subtitle"><h4>UI</h4></section>
-        <section>
-          <div class="dates">2019</div>
-          <div class="job">Entrepreneur, ecommerce international</div>
-          <div class="entreprise">As You Like It France, Croix</div>
-          <div><p></p></div>
-        </section>
-        <section>
-          <div class="dates">2016-2018</div>
-          <div class="job">Webdesigner</div>
-          <div class="entreprise">Artmadis France, Wasquehal</div>
-          <div><p></p></div>
-        </section>
-        <section>
-          <div class="dates">2006-2016</div>
-          <div class="job">Webdesigner</div>
-          <div class="entreprise">3Suisses France (Excedence), Croix</div>
-          <div><p></p></div>
-        </section>
-      </div>
-    <!-- fin sidebar -->
-
-      <!-- portfolio -->
-      <div class="portfolio">
-        <section class="title">
-          <div><h3>PORTFOLIO</h3></div>
-        </section>
-        <section>
-          <div><p>Quelques exemples de réalisations !</p></div>
-        </section>
-        <section class="portfoliomini">
-          <figure>
-            <img src="." alt="" title="Chéquier code promo - 2016">
-          </figure>
-        </section>
-      </div>
-      <!-- contact -->
-      <div class="contact">
-        <section class="title">
-          <div><h3>CONTACT</h3></div>
-          <section>
-            <!-- debut formulaire -->  
-            <form action="action_page.php">
-              <div class="row">
-                <div class="col-30">
-                  <label for="fname">First Name</label>
-                </div>
-                <div class="col-70">
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-30">
-                  <label for="lname">Last Name</label>
-                </div>
-                <div class="col-70">
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-30">
-                  <label for="country">Email</label>
-                </div>
-                <div class="col-70">
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="belgique">Belgique</option>
-                    <option value="canada">Canada</option>
-                    <option value="france">France</option>
-                    <option value="usa">USA</option>
-                  </select>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-30">
-                  <label for="subject">Subject</label>
-                </div>
-                <div class="col-70">
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                </div>
-              </div>
-              <section>
-                <div class="row">
-                  <input type="submit" value="Envoyer">
-                </div>
-            </section>
-            </form>
-            <!-- fin formulaire -->
-          </section>
-        </section>
-      </div>
-
-    <!-- footer -->
-    <footer class="footer">2021 DDC</footer>
+    </div>
+    <!-- Right elements -->
   </div>
+</nav>
+<!-- fin navbar -->
+
+<!-- header home -->
 
 
+    <!-- about me -->
+    <section class="flex justify-center">
+      <p class="text-base font-light leading-relaxed mt-0 mb-4 text-white mx-6">
+        Webdesigner de formation : mon expérience en UI design est essentiellement centrée sur le e-commerce.<br>
+        Néanmoins, je suis très intéressée par l'UX design car on ne saurait réaliser un site efficace sans prendre en compte les besoins <br>et modes d'utilisations du consommateur.
+        <br>J'ai également commencé des formations en développement Front afin de parfaire mes compétences.
+      </p>
+    </section>
 
-  <!-- fin code -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- soft skills -->
+<section class="flex justify-center text-white">
+  <article>
+    <h3 class="text-2xl font-semibold mt-4 mb-4">Soft Skills</h3>
+  </article>
+</section>
+<section class="flex justify-center text-white mx-6">
+  <article>
+    <p class="text-base italic">
+      Créativité, autonomie, force de proposition, pédagogie, empathie, intuitive, rigoureuse.
+    </p>
+  </article> 
+</section>
+<br>
+<!-- hard skills -->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<section class="flex justify-center text-white">
+  <article>
+    <h3 class="text-2xl font-semibold mt-4 mb-4">Hard Skills</h3>
+  </article>
+</section>
+
+<section class="flex justify-center text-white">
+  <article>
+    <h4 class="text-large font-semibold text-center mt-2 mb-2">DEV</h4>
+    <p class="text-base">
+      <ul class="mb-4">
+        <li>Langages : CSS3, HTML5, SCSS, SWIFTUI</li>
+        <li>Logiciels: Sass, Tailwindcss, Visual Studio Code, Xcode</li>
+        <li>Autres : Codepen, Git, Github</li>
+      </ul>
+    </p>
+  </article>
+</section>
+<section class="flex justify-center text-white">
+  <article>
+    <h4 class="text-large font-semibold text-center mt-2 mb-2">UI / UX</h4>
+    <p class="text-base">
+      <ul>
+        <li>Adobe : Photoshop, Illustrator, Dreamweaver, Adobe XD</li>
+        <li>Autres : Figma, Miro, Sketch</li>
+      </ul>
+    </p>
+  </article> 
+</section>
+<br>
+<!-- cursus diplomes -->
+
+<!-- cursus dev -->
+<section class="flex justify-center text-white">
+  <article>
+    <h3 class="text-2xl font-semibold mt-4 mb-4">Cursus DEV</h3>
+  </article>
+</section>
+
+<section class="flex justify-center text-white mx-6">
+  <article class="text-base text-center">
+    <h4>2021-2022</h4>
+    <ul>
+      <li class="text-xl text-bold">Formation Développeur Intégrateur d'applications web</li>
+      <li>Simplon Lille</li>
+      <li class="text-sm mt-2">
+        7 semaines de formation :<br>
+        Perfectionnement en HTML5 et CSS3, Sass, notions en JavaScript.<br>
+      </li>
+      <li class="text-sm mt-2">
+        6 semaines de stage :<br>
+        <span class="text-bold text-base">Projet La Forlane</span>, site multi-devices pour un gîte locatif normand pour particuliers.
+                        </li>
+                    </ul>
+                    </article>
+</section>
+<section class="flex justify-center text-white mt-6 mx-6">
+        <article class="text-base">
+            <h4 class="text-center">2021</h4>
+            <ul>
+                <li class="text-xl text-bold text-center">Apple Foundation Program : Developer iOS SwiftUI</li>
+                <li class="text-center">Simplon Lille Euratechnologies</li>
+            </ul>
+        </article>
+</section>
+    <!-- ligne separation 
+    <article class="w-full bg-gray-200 h-0.5 mt-0 mb-4">
+        <div class="bg-gray-400 h-0.5" style="width: 50%"></div>
+    </article>-->
+
+    <!-- description -->
+    <section class="flex justify-center text-white mx-6">
+        <article>
+            <ul>
+                <li class="text-sm mt-2">
+                    4 semaines de formation :<br> Perfectionnement en HTML5 et CSS3, Sass, notions en JavaScript.<br>
+                </li>
+                <li class="text-sm mt-2 text-left">
+                    <span class="text-bold text-base">Projet Ecoland</span>, application mobile iOS pour aider les particuliers dans leur action de tri et recyclage.
+                </li>
+            </ul>
+        </article>
+    </section>
+    <br>
+    <!-- cursus ux -->
+
+    <!-- cursus ui -->
+
+    <!-- portfolio -->
+
+    <!-- contact -->
+
+    <!-- balise container generale -->
+    </section>
+
+
+    <!-- End your project here-->
 </body>
+<!-- Tailwind Elements JS -->
+<script type="text/javascript" src="js/index.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
 
 </html>
